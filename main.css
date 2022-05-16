@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    color: purple;
+    text-align: center;
+    background-image: url("./Images/ZODIAC-SIGN.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-position: center;
+    font-family: Roboto Slab, Helvetica, sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 60px;
+    animation: reveal 6s;
+}
+label{
+    font-weight: bold;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    animation: reveal 6s;
+}
+
+  @keyframes reveal{
+    0%{opacity: 0;}
+    20%{opacity: 0;}
+    30%{opacity: 0;}
+    50%{opacity: 0;}
+    80%{opacity: .5;}
+    100%{opacity: 1;}
+  }
